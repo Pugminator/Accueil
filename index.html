@@ -3,20 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ma chaîne YouTube</title>
+  <title>Pugminator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-  <header>
-    <h1>Bienvenue sur ma chaîne YouTube</h1>
-    <p>Gaming • Tech • Vlogs • Création de contenu</p>
-  </header>
+<div id="yt-particles-container"></div>
 
-  <section class="about">
+<body>
+  <header id="home">
+    <h1>Bienvenue sur ma chaîne YouTube</h1>
+    <p>Gaming • Tech • Humour • Création de contenu</p>
+	<div class="profile">
+		<img src="assets/avatar.png" alt="Icon de la chaîne" />
+		<h1>Pugminator</h1>
+	</div>
+  </header>
+  
+  <nav class="navbar">
+	  <div class="nav-links" id="nav-links">
+		<a href="#home">Accueil</a>
+		<a href="#about">À propos</a>
+		<a href="#videos">Vidéos</a>
+		<a href="#contact">Contact</a>
+	  </div>
+  </nav>
+
+  <section id="about" class="about">
     <h2>À propos</h2>
     <p>
-      Salut ! Je partage des vidéos sur ma passion. Abonne-toi pour ne rien rater 🚀
+      Salut ! Je partage des vidéos sur des sujets random, fun, tech, bidouille et autres. Abonne-toi pour ne rien rater 🚀
     </p>
 
     <a class="btn" href="http://www.youtube.com/@Pugminator?sub_confirmation=1" target="_blank">
@@ -24,8 +39,8 @@
     </a>
   </section>
 
-  <section class="videos">
-    <h2>Dernière vidéo</h2>
+  <section id="videos" class="videos">
+    <h2>Comment j'ai fait ce site</h2>
 
     <!-- Remplace VIDEO_ID -->
     <iframe 
@@ -39,7 +54,7 @@
   </section>
 
   <footer>
-    <p>© 2026 Ma chaîne YouTube</p>
+    <p>© 2026 Pugminator</p>
   </footer>
 
   <script src="script.js"></script>
